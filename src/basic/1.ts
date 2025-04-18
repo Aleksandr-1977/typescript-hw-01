@@ -1,5 +1,7 @@
-const num = 10;
-const str = 'Some string';
-const bool = true;
+const number = 50;
+const string = 'Max';
+const boolean = true;
 const empty = null;
-const notParam = undefined;
+const callback: (data: any) => number = data => {
+  return 100 + data.a;
+};
