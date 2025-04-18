@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    // визначає версію JavaScript, яку буде використовувати компілятор
+    "target": "ES2020",
+    //визначає, яку систему модулів використовувати (commonjs, ESNext, ES2022)
+    "module": "ESNext",
+    //задає бібліотеки, які доступні у коді (ES2020, DOM, тощо)
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    //пропускає перевірку типів у node_modules (прискорює компіляцію).
+    "skipLibCheck": true,
+    //спосіб пошуку модулів (bundler – для Webpack, ESBuild, Vite тощо.)
+    "moduleResolution": "bundler",
+    //Обробка файлів:
+    //дозволяє використовувати .js файли
+    "allowImportingTsExtensions": true,
+    //дає змогу імпортувати JSON-файли.
+    "resolveJsonModule": true,
+    //кожен файл розглядається як окремий модуль (не можна використовувати const enum).
+    "isolatedModules": true,
+    //забороняє збереження згенерованих .js файлів
+    "noEmit": true,
+    // Перевірки та обмеження
+    // увімкнення всіх суворих перевірок TypeScript.
+    "strict": true,
+    // попереджає про невикористані змінні
+    "noUnusedLocals": true,
+    // попереджає про невикористані параметри у функціях
+    "noUnusedParameters": true,
+    // забороняє пропуск case у switch без break
+    "noFallthroughCasesInSwitch": true
+  },
+  //   визначає файли, які слід компілювати (наприклад, src/**/*).
+  "include": ["src"]
+}
+// Робота з модулями
+// esModuleInterop – дозволяє імпортувати CommonJS модулі звичайним способом:
+// import express from 'express';
+// allowSyntheticDefaultImports – спрощує роботу з модулями, що не підтримують ESM.
+
+// Декоратори
+// experimentalDecorators – дозволяє використовувати декоратори.
+// emitDecoratorMetadata – додає мета-інформацію до декораторів (для бібліотек на кшталт TypeORM).
+
+// Інші налаштування
+// types – дозволяє задавати глобальні типи.
+// sourceMap – генерує карти коду для дебагу.
+// jsx – налаштовує обробку JSX (react, react-jsx).
+// Включення та виключення файлів
+
+// include – визначає файли, які слід компілювати (наприклад, src/**/*).
+// exclude – файли, які потрібно виключити (наприклад, node_modules).
