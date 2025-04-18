@@ -30,7 +30,7 @@
     "noFallthroughCasesInSwitch": true
   },
   //   визначає файли, які слід компілювати (наприклад, src/**/*).
-  "include": ["src"]
+  "include": ["src", "index.ts"]
 }
 // Робота з модулями
 // esModuleInterop – дозволяє імпортувати CommonJS модулі звичайним способом:
