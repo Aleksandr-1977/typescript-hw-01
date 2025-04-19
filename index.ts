@@ -1,4 +1,4 @@
 import './style.css';
 
-const appDiv: HTMLElement = document.getElementById('app');
+const appDiv = document.getElementById('app') as HTMLElement;
 appDiv.innerHTML = `<h1>TypeScript</h1>`;
