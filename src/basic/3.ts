@@ -4,4 +4,4 @@ let numberString: string | number;
 let enableDisable: 'enable' | 'disable';
 numberString = 5;
 enableDisable = 'enable';
-console.log('task-3:', numberString, enableDisable);
+console.log('task basic-3:', numberString, enableDisable);

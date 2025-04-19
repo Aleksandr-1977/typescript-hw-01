@@ -25,4 +25,4 @@ const poly: User = {
   age: 30,
   email: 'john@example.com',
 };
-console.log('task-6:', mango);
+console.log('task basic-6:', mango);

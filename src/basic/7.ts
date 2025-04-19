@@ -25,4 +25,4 @@ const page2 = {
   accounts: ['Alex'],
   status: 'close',
 };
-console.log('task-7:', page1, page2);
+console.log('task basic-7:', page1, page2);

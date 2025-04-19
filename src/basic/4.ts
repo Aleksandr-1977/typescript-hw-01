@@ -19,4 +19,4 @@ function customError(): never {
   throw new Error('Error');
 }
 const result = calc(5, 3);
-console.log('task-4:', result);
+console.log('task basic-4:', result);

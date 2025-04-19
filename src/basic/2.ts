@@ -3,4 +3,4 @@
 // Як переписати його в TypeScript, використовуючи концепцію кортежів, щоб гарантувати, що перший елемент завжди буде рядком, а другий числом?
 let person: [string, number];
 person = ['Max', 21];
-console.log('task-2:', person);
+console.log('task basic-2:', person);
